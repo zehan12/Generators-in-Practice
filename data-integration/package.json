@@ -8,7 +8,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:server1": "nodemon --no --no-warnings src/server1.js",
     "start:server2": "nodemon --no --no-warnings src/server2.js",
-    "start:client": "node --no --no-warnings src/client.js"
+    "start:client": "nodemon --no --no-warnings src/client.js"
   },
   "keywords": [],
   "author": "",
