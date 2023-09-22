@@ -5,12 +5,14 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start:server1": "node --no --no-warnings src/server1.js",
-    "start:server2": "node --no --no-warnings src/server2.js",
-    "start:client": "node --no --no-warnings src/client.js"
+    "start:server1": "nodemon --no-warnings src/server1.js",
+    "start:server2": "nodemon --no-warnings src/server2.js",
+    "start:client": "node --no-warnings src/client.js"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1"
+  }
 }
