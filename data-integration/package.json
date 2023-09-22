@@ -3,8 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server1": "node --no --no-warnings src/server1.js",
+    "start:server2": "node --no --no-warnings src/server2.js",
+    "start:client": "node --no --no-warnings src/client.js"
   },
   "keywords": [],
   "author": "",
