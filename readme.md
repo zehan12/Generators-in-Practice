@@ -46,7 +46,7 @@ console.log(generator.next()); // { value: undefined, done: true }
 
 Generator functions also support the return and throw methods on the iterator object. return allows you to signal the end of the generator's execution, while throw is used to throw an exception within the generator.
 
-```
+```js
 function* myGenerator() {
   try {
     yield 1;
