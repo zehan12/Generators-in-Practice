@@ -1,10 +1,8 @@
 import { createServer } from "http";
-const PORT = 3001;
+const PORT = 3000;
 
 async function handler(req, res) {
-    if ( req.method === "GET" && req.url.includes("products") ){
-        console.log("request:",req.url);
-    }
+    res.end("hey");
 }
 
 createServer(handler)
